@@ -20,11 +20,11 @@ if vpn == 1:
 if choice == 1:
 	choice = start_instagram()
 	if choice == 1:
-		username = get_username()
+		username = get_username(mons_vldz)
 		wordlist = get_wordlist()
 		insta_bruteforce(username, wordlist, vpn)
 	if choice == 2:
-		username = get_username()
+		username = get_username(mons_vldz)
 		amount = get_amount()
 		insta_massreport(username, vpn, amount, 1)
 	if choice == 3:
