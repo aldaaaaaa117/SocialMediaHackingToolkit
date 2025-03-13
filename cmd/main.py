@@ -1,7 +1,7 @@
 from utils import *
 from rich.console import Console
 import platform
-console = Console()
+console = Console()cj
 
 # print ascii art & loading screen
 start()
